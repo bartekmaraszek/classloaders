@@ -13,7 +13,7 @@ public class App {
             System.out.println("1. " + counter1.message() + " = " + counter1.increment());
             System.out.println("2. " + counter2.message() + " = " + counter2.increment());
             System.out.println();
-            Thread.currentThread().sleep(8000);
+            Thread.currentThread().sleep(6000);
         }
     }
 

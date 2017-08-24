@@ -14,6 +14,6 @@ public class CounterFactory {
                 }
             }
         };
-        return (ICounter) tmp.loadClass("pl.bmaraszek.dynamic.LeakyCounter").getConstructor().newInstance();
+        return (ICounter) tmp.loadClass("pl.bmaraszek.dynamic.Counter").getConstructor().newInstance();
     }
 }
